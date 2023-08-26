@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" *ngIf="showMenu()">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="#"><i class="fa fa-users"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="eventos/lista">Eventos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="palestrants">Palestrantes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contatos">Contatos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Arlei
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="user/perfil">Perfil</a></li>
+            <li><a class="dropdown-item" routerLink="#"></a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" routerLink="user/login">Sair</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
