@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -9,7 +10,7 @@ namespace ProEventos.Application.Dtos
         
         public string Local { get; set; }
         
-        public string DataEvento { get; set; }
+        public DateTime DataEvento { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigtório."),
          StringLength(50, MinimumLength = 3,
@@ -38,7 +39,7 @@ namespace ProEventos.Application.Dtos
         
         public IEnumerable<RedeSocialDto> RedesSociais { get; set; }
         
-        // public IEnumerable<PalestranteDto> Palestrantes { get; set; }
+        public IEnumerable<PalestranteDto> Palestrantes { get; set; }
 
     }
 }

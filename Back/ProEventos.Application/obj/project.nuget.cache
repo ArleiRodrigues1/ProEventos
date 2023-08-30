@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dBK2BgzeKyAdHboh/q8PuNljJuw8M00Wc/fjtBoZGsgz/ONLGFVuh5NrRYKKElH4rMIvBGZlaRPhTjE6odIaAg==",
+  "dgSpecHash": "IsqdMq+QnW0bZUhzfRJ4c9LGNeDM9uPqR2LcUwY67vhc3m4kMZQESnP/L44v1uX/6l5GJEyjgE5HWPyGYvdS2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\Back\\ProEventos.Application\\ProEventos.Application.csproj",
+  "projectFilePath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\back\\ProEventos.Application\\ProEventos.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arlei\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\Arlei\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RX/B7EVaQ2Ry7jyKuyKjLptGQ7ZXemThKucu4ArbodKoxcUc+FMtUhQEX+ep+jI4Avbnck151ggcmElPLbMlgg==",
+  "dgSpecHash": "DZsTbb2yVQluU/nVq0fWuIHl4sYrzwd7jtqe9GhmMJt0/IDHMchJWEoNZbubvBT9lmdqBYPbcfNqdsjwJe1Y3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\back\\ProEventos.Domain\\ProEventos.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

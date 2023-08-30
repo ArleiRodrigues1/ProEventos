@@ -72,7 +72,9 @@ defineLocale('pt-br', ptBrLocale);
       preventDuplicates: true,
       progressBar: true
     }),
-    NgxSpinnerModule,
+    NgxSpinnerModule.forRoot({
+       type: 'pacman'
+       })
   ],
   providers: [
     EventoService,

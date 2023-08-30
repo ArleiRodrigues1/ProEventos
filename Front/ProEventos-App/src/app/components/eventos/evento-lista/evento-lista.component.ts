@@ -58,17 +58,17 @@ export class EventoListaComponent implements OnInit {
   }
 
   public carregarEventos(): void {
-    this.eventoService.getEventos().subscribe({
-      next: (eventos: Evento[]) => {
+    this.eventoService.getEventos().subscribe(
+      (eventos: Evento[]) => {
         this.eventos = eventos;
         this.eventosFiltrados = this.eventos;
       },
-      error: () => {
+      () => {
         this.spinner.hide();
         this.toastr.error('Erro ao Carregar os Eventos', 'Erro!');
       },
-      complete: () => this.spinner.hide()
-    });
+      () => this.spinner.hide()
+    );
   }
 
   openModal(event: any, template: TemplateRef<any>, eventoTema: string, eventoId: number): void {

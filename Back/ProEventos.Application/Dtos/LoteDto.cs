@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace ProEventos.Application.Dtos
@@ -11,10 +12,10 @@ namespace ProEventos.Application.Dtos
         public decimal Preco { get; set; }
 
         [Display(Name = "Data inicial")]
-        public string DataInicio { get; set; }
+        public DateTime DataInicio { get; set; }
 
         [Display(Name = "Data Final")]
-        public string DataFim { get; set; }
+        public DateTime  DataFim { get; set; }
 
         public int Quantidade { get; set; }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj": {}
+    "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\back\\ProEventos.Domain\\ProEventos.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+    "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\back\\ProEventos.Domain\\ProEventos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\back\\ProEventos.Domain\\ProEventos.Domain.csproj",
         "projectName": "ProEventos.Domain",
-        "projectPath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\Back\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectPath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\back\\ProEventos.Domain\\ProEventos.Domain.csproj",
         "packagesPath": "C:\\Users\\Arlei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\Back\\ProEventos.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Arlei\\Documents\\Curso Angular-Csharp\\CrudEventos\\back\\ProEventos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
